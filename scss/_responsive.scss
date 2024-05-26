@@ -1,0 +1,31 @@
+/* Vista tablet */
+/* 768px hasta 1023px */
+
+@media (max-width: 1023px) {
+    .encabezado {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .productosContenido {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Ajustes específicos para la vista móvil */
+/* 0 hasta 768px */
+
+@media (max-width: 768px) {
+    .encabezado {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .productosContenido {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
